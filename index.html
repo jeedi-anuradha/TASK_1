@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Applicant Details</legend>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" name="username">
+                    <label for="fname">Father's Name :</label>
+                    <input type="dob" id="dob" name="dob"><br>
+                    <label for="dob">Date Of Birth</label>
+                    <input type="dob" id="dob" name="dob">
+                    <label for="gender">Gender : </label>
+                    <label for="male">Male</label>
+                    <input type="radio" id="gender" name="Male" value="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="gender" name="Female" value="gender"><br>
+                    <label for="age">Ages As On :</label>
+                    <input type="age" id="age" name="age">
+                    <label for="number">Adhaar Number :</label>
+                    <input type="age" id="number" name="number"><br>
+                    <label for="number">Phone Number :</label>
+                    <input type="age" id="number" name=" phone number">
+                    <label for="email">E-mail id :</label>
+                    <input type=email" id="email" name="email"><br>
+                    <label for="photo">Photo :</label>
+                    <input type="file" id="photo" name="file">
+                <br>
+        </fieldset>
+        <fieldset>
+            <legend>Residential Address Details</legend>
+                <label for="applicantsaddress">Applicant's Address :</label>
+                <!-- <input type="address" id="applicantsaddress" name="address"> -->
+                <textarea name="address" id="applicantsaddress" rows="5" cols="20"></textarea>
+                <label for="district">District :</label>
+                <select name="district" id="district">
+                    <option value="Hyderabad">Hyderabad</option> </select><br>
+                    <label for="mandal">Mandal :</label>
+                <select name="mandal" id="mandal">
+                    <option value="Hyderabad">Hyderabad</option> </select>
+                    <label for="mandal">Village :</label>
+                    <select name="village" id="mandal">
+                    <option value="village">Hyderabad</option> </select> <br>
+                    <label for="pincode">Pincode :</label>
+                    <input type="pincode" id="pincode" name="pincode">
+        </fieldset>
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            <label for="city">City :</label>
+            <select name="city" id="city">
+            <option value="village">Hyderabad</option> </select><br>
+            <label for="select">Pass Type :</label>
+            <select name="select" id="select">
+            <option value="village">----Select----</option> </select>
+        </fieldset>
+        <fieldset>
+            <legend>Mode Of Payment & Pass Collection</legend>
+            <label for="mode">Payment Mode :</label>
+            <select name="mode" id="mode">
+            <option value="mode">Select Payment Mode</option> </select><br>
+            <label for="pass">Pass Delivery Mode :</label>
+            <select name="pass" id="pass">
+            <option value="pass">Select Pass Delivery Mode</option> </select><br>
+            <label for="collect">Center at which you want to Collect Pass :</label>
+            <select name="collect" id="collect">
+            <option value="collect">-------Select-------</option> </select>
+        </fieldset><br>
+        <center><input type="submit"></center>
+    </form>
+
+</body>
+</html>
